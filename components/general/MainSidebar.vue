@@ -1,12 +1,10 @@
 <template>
 
-  <div>
+  <span>
+
+    <a class="twitter-timeline" href="https://twitter.com/gbla11yday?ref_src=twsrc%5Etfw">Tweets by gbla11yday</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     
-  <p>
-    Global Sidebar content goes here
-  </p>
-    
-  </div>
+  </span>
 
 </template>
 

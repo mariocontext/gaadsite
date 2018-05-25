@@ -1,10 +1,10 @@
 <template>
 
-  <div>
+  <footer class="footer" role="contentinfo">
     <p>
       Global Footer content goes here
     </p>
-  </div>
+  </footer>
 
 </template>
 

@@ -1,10 +1,23 @@
 <template>
-  <div>
+<!-- each component needs a single containing element and thus using span -->
+  <span>
     <main-header/>
-    <nuxt/>
-    <main-sidebar/>
+
+    <div class="container">
+      <main class="columns is-variable is-3">
+
+        <section class="column">
+          <nuxt/>
+        </section>
+
+        <aside class="column is-one-quarter" role="complementary">
+          <main-sidebar/>
+        </aside>
+      </main>
+    </div>
+
     <main-footer/>
-  </div>
+</span>
 
 </template>
 
