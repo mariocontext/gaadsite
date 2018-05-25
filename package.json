@@ -16,6 +16,7 @@
     "ajv": "^6.5.0",
     "bulma": "^0.7.1",
     "font-awesome": "^4.7.0",
+    "hoek": "^4.2.1",
     "nuxt": "^1.0.0"
   },
   "devDependencies": {
