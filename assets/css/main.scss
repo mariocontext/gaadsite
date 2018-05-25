@@ -1,0 +1,18 @@
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+
+// bulma override because CSS vars are not being properly compilled by post-css webpack
+$variable-columns: false;
+
+// customize styles
+$black: #343434;
+
+
+@import '~bulma';
+
+.my-amazing-class {
+ color: #FF0000; 
+}
+.another-amazing-class {
+  font-size: 4em; 
+}
