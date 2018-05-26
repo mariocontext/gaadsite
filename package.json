@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
     "ajv": "^6.5.0",
     "bulma": "^0.7.1",
     "font-awesome": "^4.7.0",

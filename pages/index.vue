@@ -23,24 +23,24 @@
 
 						<li>
               <span class="icon is-medium">
-                <i class="fas fa-envelope"></i>
+                <i class="fa fa-envelope"></i>
               </span>
               E-mail us at <a href="mailto:globala11yawarenessday@gmail.com">globala11yawarenessday at gmail.com</a>.</li>
 
 						<li> 
               <span class="icon is-medium">
-                <i class="fas fa-facebook"></i>
+                <i class="fa fa-facebook"></i>
               </span>
               Show support for this effort by <a href="https://www.facebook.com/globalaccessibilityawarenessday">Liking our Facebook page</a>.</li>
 						<li>
               <span class="icon is-medium">
-                <i class="fas fa-twitter"></i>
+                <i class="fa fa-twitter"></i>
               </span>
               <a href="https://twitter.com/gbla11yday">Follow gbla11yday on Twitter</a> and tweet using the #gaad hashtag.</li>
 					</ul>
 					<div class="callout">
             <span class="icon is-medium">
-                <i class="fas fa-mic"></i>
+                <i class="fa fa-facebook"></i>
               </span>
             <a href="http://www.webaxe.org/">Webaxe</a> has generously <a href="http://www.webaxe.org/podcast-95-global-accessibility-awareness-day-surveys-more/">interviewed us</a> for this podcast!</div>
 					<h3>Information on GAAD is available in:</h3>

@@ -13,12 +13,10 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  script: [
-    { src: 'https://use.fontawesome.com/releases/v5.0.7/js/all.js'}
-  ],
   css: [
     // SCSS file in the project
     { src: '~/assets/css/main.scss', lang: 'scss' },
+    { src: 'font-awesome/scss/font-awesome.scss', lang: 'scss' }
   ],
   /*
   ** Customize the progress bar color
