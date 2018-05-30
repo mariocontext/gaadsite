@@ -4,15 +4,12 @@
     <main-header/>
 
     <div class="main-content container">
-      <main class="columns is-variable is-3">
+      <main>
 
-        <section class="column general-content">
+        <section class="general-content">
           <nuxt/>
         </section>
 
-        <aside class="column is-one-quarter secondary-content" role="complementary">
-          <main-sidebar/>
-        </aside>
       </main>
     </div>
 
