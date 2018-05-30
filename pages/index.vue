@@ -1,24 +1,29 @@
 <template>
   <span>
+    <div class="logo-area">
+      <img src="~/assets/images/gaad-logo-greyscale.png" alt="Global Accessibility Awareness Day logo showing the letters GAAD encircled by a graphic of a keyboard and wire ">
+    </div>
     <h1 class="is-size-1 has-text-centered">Global Accessibility Awareness Day</h1>
-    <h2 class="is-size-2 has-text-centered">MAY 17 2018</h2>
-    <section class="box">
-      <p>Join us on Thursday, May 17 2018 and mark the seventh Global Accessibility Awareness Day (GAAD). The purpose of GAAD is to get everyone talking, thinking and learning about digital (web, software, mobile, etc.) access/inclusion and people with different disabilities.</p>
-    </section>
     <section class="section">
+      <h2>May 17, 2018 is the day</h2>
+      <p>Join us on Thursday, May 17 2018 and mark the seventh Global Accessibility Awareness Day (GAAD). The purpose of GAAD is to get everyone talking, thinking and learning about digital (web, software, mobile, etc.) access/inclusion and people with different disabilities.</p>
       <p>
         The target audience of GAAD is the design, development, usability, and related communities who build, shape, fund and influence technology and its use. While people may be interested in the topic of making technology accessible and usable by persons with disabilities, the reality is that they often do not know how or where to start. Awareness comes first. Read <a href="http://mysqltalk.wordpress.com/2011/11/27/challenge-accessibility-know-how-needs-to-go-mainstream-with-developers-now">blog post by Joe Devon</a> that inspired GAAD.
       </p>
     </section>
     <section class="section">
-      <h3>Learn more about</h3>
+      <h2>Learn more about</h2>
 					<ul>
 						<li><router-link to="/background">How this all got started</router-link></li>
 						<li><router-link to="/events">Public events that you are invited to attend</router-link></li>
 						<li><router-link to="/activities">Other activities taking place to mark the day</router-link></li>
 					</ul>
+    </section>
 
+    <section class="section">
+      <h2>Interact</h2>
 					<p>Whether you participate in an organized activity with others or not, join us and take an hour out of your day to <router-link to="/participate">experience digital accessibility first-hand</router-link>.</p>
+
 					<ul class="no-list-style">
 
 						<li>
@@ -40,10 +45,12 @@
 					</ul>
 					<div class="callout">
             <span class="icon is-medium">
-                <i class="fa fa-facebook"></i>
+                <i class="fa fa-microphone"></i>
               </span>
             <a href="http://www.webaxe.org/">Webaxe</a> has generously <a href="http://www.webaxe.org/podcast-95-global-accessibility-awareness-day-surveys-more/">interviewed us</a> for this podcast!</div>
-					<h3>Information on GAAD is available in:</h3>
+        </section>
+        <section class="section">
+					<h2>Information on GAAD is available in:</h2>
 					<ul>
 						<li><a lang="es" href="#">español</a></li>
 						<li><a lang="fr" href="#">Français</a></li>
@@ -58,25 +65,17 @@
 <script>
   
   module.exports = {
-   
-    data:function() {
-    
-      return {
-        message: 'hello from data!',
-        seen: true,
-        todos: [
-          { id:1, text: 'Learn JavaScript' },
-          { id: 2, text: 'Learn Vue' },
-          { id: 3, text: 'Build something awesome' }
-        ]
-        
-      }
-    }
+
+    layout: 'singlecol',
     
   }
 
 </script>
 
 <style scoped>
+
+.logo-area {
+  text-align: center;
+}
   
 </style>

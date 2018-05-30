@@ -2,7 +2,7 @@
 
   <header role="banner">
 
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <nav class="navbar main-navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <router-link class="navbar-item" lang="en" to="/">Home</router-link>
                 <router-link class="navbar-item" lang="en" to="/background">Background</router-link>
@@ -38,13 +38,32 @@
 
 <style lang="scss" scoped>
 
+.main-navbar a {
+  transition: all 0.5s ease;
+    &:hover {
+      color: hsl(197.6°, 100, 27.5) !important;
+      background-color: #FFF;
+  }
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 nav {
 
-  background: #000;
+  background: #666;
+  font-size: 1.2rem;
+
+  .navbar-brand {
+    margin: 0 auto;
+  }
 
   .navbar-item {
-    color: #FFF !important;
-    font-weight: 700;
+    color: #FFF;
+    height: 5rem;
   }
 
 }

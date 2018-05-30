@@ -10,7 +10,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Global Accessibility Awareness Day (GAAD) is the 3rd Thursday each May, and promotes digital accessibility and inclusion for people with all disabilities.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=Poppins:400,400i,500,600,700|Roboto'}
     ]
   },
   css: [

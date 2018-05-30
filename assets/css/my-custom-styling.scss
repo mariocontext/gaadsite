@@ -1,0 +1,78 @@
+/* Custom Styling for global elements */
+
+/* TYPOGRPAHY */
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    text-align: center;
+    color: #444;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: .85rem;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: .75rem
+}
+
+h6 {
+    font-weight: 700;
+    font-size: .5rem
+}
+
+.main-content {
+    a {
+
+        text-decoration: underline;
+        color: hsl(197.6°, 100, 27.5);
+        -webkit-text-underline-position: under;
+        -ms-text-underline-position: below;
+        text-underline-position: under;
+        &:hover {
+            text-decoration: underline dashed;
+        }
+    }
+    ul {
+        margin-top: .5rem
+    }
+    li {
+        margin-bottom: .5rem;
+    }
+}
+
+.main-content .section {
+    padding: 2rem 1.5rem;
+}

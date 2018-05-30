@@ -1,6 +1,6 @@
 <template>
     <span>
-        <h1>Blog</h1>
+        <h1>2018 GAAD Blog Posts And Other Mentions</h1>
     </span>
 </template>
 
