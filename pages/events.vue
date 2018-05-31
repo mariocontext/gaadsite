@@ -1,7 +1,7 @@
 <template>
     <span>
         <h1>GAAD Events</h1>
-            <p>Thinking of holding an in-person or virtual event to mark the 7th GAAD and inviting the public to take part? Take a look at our <a href="events2012.php">2012</a>, <a href="events2013.php">2013</a>, <a href="events2014.php">2014</a>, <a href="events2015.php">2015</a>, <a href="events2016.php">2016</a> and <a href="events2017.php">2017</a> event pages for ideas. E-mail <a href="mailto:globala11yawarenessday&#64;gmail.com">globala11yawarenessday at gmail.com</a> if you have questions or need ideas.</p>
+            <p class="box">Thinking of holding an in-person or virtual event to mark the 7th GAAD and inviting the public to take part? Take a look at our <a href="events2012.php">2012</a>, <a href="events2013.php">2013</a>, <a href="events2014.php">2014</a>, <a href="events2015.php">2015</a>, <a href="events2016.php">2016</a> and <a href="events2017.php">2017</a> event pages for ideas. E-mail <a href="mailto:globala11yawarenessday&#64;gmail.com">globala11yawarenessday at gmail.com</a> if you have questions or need ideas.</p>
 
             <h2>In-Person Events on May 17</h2>
             <ul>
@@ -62,7 +62,7 @@
                 <li><a href="https://www.meetup.com/Inclusive-Design-Accessibility/events/249899081/">Schiphol, Netherlands</a></li>
                 <li><a href="https://www.meetup.com/a11ysea/events/249275750/">Seattle WA, USA</a></li>
                 <li><a href="https://www.meetup.com/t12t-Stockholm/events/249644060/">Stockholm, Sweden</a></li>
-                <li><a href="https://www.trybooking.com/book/event?eid=384343&">Success, Australia</a></li>
+                <li><a href="https://www.trybooking.com/book/event?eid=384343">Success, Australia</a></li>
                 <li><a href="http://a11ybytes.org/sydney/?location=sydney">Sydney, Australia</a></li>
                 <li><a href="https://www.eventbrite.com/e/global-accessibility-awareness-day-at-asu-tickets-45455799520">Tempe AZ, USA</a></li>
                 <li><a href="http://www.lakeheadu.ca/current-students/student-services/accessibility/global-accessibility-awareness-day">Thunder Bay ON, Canada</a></li>
@@ -119,6 +119,7 @@
 
             <h3>Register for the Free Global Accessibility Awareness Day Webinar by The American Foundation for the Blind</h3>
             <p>Hosted by AFB Consulting, the 1-hour webinar will cover the following topics:</p>
+            <p>
                 <ul>
                     <li>The real-world value of accessibility, presented by Cristopher Broyles, AFB’s Chief Consulting Solutions Officer</li>
                     <li>Recent advances in the accessibility space, presented by John Lilly and Matthew Enigk</li>

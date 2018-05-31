@@ -4,7 +4,7 @@
     <main-header/>
 
     <div class="main-content container">
-      <main class="columns is-variable is-3">
+      <main class="columns is-variable is-5">
 
         <section class="column general-content">
           <nuxt/>
@@ -15,8 +15,7 @@
         </aside>
       </main>
     </div>
-
-    <main-footer/>
+    
 </span>
 
 </template>
@@ -25,14 +24,12 @@
   
 import MainHeader from '../components/general/MainHeader.vue'
 import MainSidebar from '../components/general/MainSidebar.vue'
-import MainFooter from '../components/general/MainFooter.vue'
   
 export default {
   
   components: {
     MainHeader,
-    MainSidebar,
-    MainFooter
+    MainSidebar
   }
   
 }
@@ -41,10 +38,6 @@ export default {
 
 
 <style scoped>
-
-.main-content {
-  margin-top: 8rem;
-}
 
 
 </style>

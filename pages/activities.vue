@@ -1,7 +1,7 @@
 <template>
     <span>
         <h1>Other 2018 Global Accessibility Awareness Day Activities</h1>
-            <p>Companies, schools, governments and other organizations mark Global Accessibility Awareness Day by holding events for internal audiences. Thinking of planning a GAAD activity to help us mark the 7th GAAD? Take a look at our <a href="activities2012.php">2012</a>, <a href="activities2013.php">2013</a>, <a href="activities2014.php">2014</a>, <a href="activities2015.php">2015</a>, <a href="activities2016.php">2016</a> and <a href="activities2017.php">2017</a> activity pages for ideas. E-mail <a href="mailto:globala11yawarenessday&#64;gmail.com">globala11yawarenessday at gmail.com</a> if you have questions or need ideas.</p>
+            <p class="box">Companies, schools, governments and other organizations mark Global Accessibility Awareness Day by holding events for internal audiences. Thinking of planning a GAAD activity to help us mark the 7th GAAD? Take a look at our <a href="activities2012.php">2012</a>, <a href="activities2013.php">2013</a>, <a href="activities2014.php">2014</a>, <a href="activities2015.php">2015</a>, <a href="activities2016.php">2016</a> and <a href="activities2017.php">2017</a> activity pages for ideas. E-mail <a href="mailto:globala11yawarenessday&#64;gmail.com">globala11yawarenessday at gmail.com</a> if you have questions or need ideas.</p>
             <ul>
                 <li>Alzheimer's Society, UK</li>
                 <li>American Airlines</li>

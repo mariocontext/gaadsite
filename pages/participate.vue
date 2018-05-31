@@ -2,7 +2,7 @@
     <span>
         <h1>Participate in Global Accessibility Awareness Day</h1>
             <h2>Experience Accessibility First-Hand on May 17</h2>
-            <p>Whether you participate in a <a href="/events.php">public</a> or private event to mark Global Accessibility Awareness Day, on May 17, we encourage designers, developers, usability professionals, and everyone else to take an hour to experience first-hand the impact of digital accessibility (or lack there of).</p>
+            <p class="box">Whether you participate in a <a href="/events.php">public</a> or private event to mark Global Accessibility Awareness Day, on May 17, we encourage designers, developers, usability professionals, and everyone else to take an hour to experience first-hand the impact of digital accessibility (or lack there of).</p>
 
             <h3>Go Mouseless For An Hour</h3>
             <p>Go ahead and unplug your mouse and only use your keyboard alone (tab/shift tab, arrow keys, enter and spacebar) to navigate and interact with your favorite websites and applications. If you use a touchpad, trackpad or similar input method, disable it, and use the keyboard instead.</p>
