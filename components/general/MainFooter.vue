@@ -3,7 +3,7 @@
   <footer class="footer" role="contentinfo">
     
     <p>
-      Global Footer content goes here
+      <sub> copyright 2018 GAAD All right reserved</sub>
     </p>
 
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -23,5 +23,10 @@
 
 
 <style>
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+}
 
 </style>
