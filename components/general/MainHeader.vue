@@ -5,7 +5,7 @@
         <nav class="navbar main-navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
 
-              <div class="navbar-menu">
+              <div class="navbar-menu" v-bind:class="{ 'is-active': menuActive }">
                 <span class="navbar-start">
                   <router-link class="navbar-item" lang="en" to="/">Home</router-link>
                   <router-link class="navbar-item" lang="en" to="/background">Background</router-link>
@@ -23,11 +23,12 @@
                   <a class="navbar-item" lang="en" href="http://pinterest.com/pin/341147740493704922/" aria-label="Pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
                 </span>
               </div>
-
-              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
+              <a role="button" class="navbar-burger" v-on:click="toggleMenu" v-bind:class="{ 'is-active': menuActive }" aria-label="menu" aria-expanded="false">
+                <div>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </div>
               </a>
             </div>
         </nav>   
@@ -38,6 +39,22 @@
 
 
 <script>
+
+  
+  module.exports = {
+
+    data: function() {
+      return {
+        menuActive: false
+      }
+    },
+    methods: {
+      toggleMenu: function() {
+        this.menuActive= !this.menuActive
+      }
+    }
+    
+  }
 
 </script>
 
@@ -81,18 +98,13 @@ nav {
 }
 
 .navbar-burger {
-
-  text-align: center;
   
+  right: 1rem;
+
   span {
     height: 3px;
   }
 
-}
-
-.hamburger-text {
-  display: block;
-  float: left;
 }
 
 </style>
