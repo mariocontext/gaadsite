@@ -14,39 +14,69 @@
 
       <section>
       <h2>Learn more about</h2>
-					<ul>
-						<li><router-link to="/background">How this all got started</router-link></li>
-						<li><router-link to="/events">Public events that you are invited to attend</router-link></li>
-						<li><router-link to="/activities">Other activities taking place to mark the day</router-link></li>
-					</ul>
+					<div class="columns">
+						<div class="column">
+              <router-link class="box my-centered-item" to="/background">How this all got started</router-link>
+            </div>
+						<div class="column">
+              <router-link class="box my-centered-item" to="/events">Public events that you are invited to attend</router-link>
+            </div>
+						<div class="column">
+              <router-link class="box my-centered-item" to="/activities">Other activities taking place to mark the day</router-link>
+            </div>
+					</div>
 
       <h2>Interact</h2>
 					<p>Whether you participate in an organized activity with others or not, join us and take an hour out of your day to <router-link to="/participate">experience digital accessibility first-hand</router-link>.</p>
 
-					<ul class="no-list-style">
+					<div class="columns is-3 with-icons">
 
-						<li>
-              <span class="icon is-medium">
-                <i class="fa fa-envelope"></i>
+						<div class="column">
+              <span class="box">
+                <span class="icon is-large">
+                  <i class="fa fa-envelope"></i>
+                </span>
+                <p>
+                  E-mail us at <a href="mailto:globala11yawarenessday@gmail.com">globala11yawarenessday at gmail.com</a>.
+                </p>
               </span>
-              E-mail us at <a href="mailto:globala11yawarenessday@gmail.com">globala11yawarenessday at gmail.com</a>.</li>
+            </div>
 
-						<li> 
-              <span class="icon is-medium">
-                <i class="fa fa-facebook"></i>
+						<div class="column"> 
+              <span class="box">
+                <span class="icon is-large">
+                  <i class="fa fa-facebook"></i>
+                </span>
+                <p>
+                  Show support for this effort by <a href="https://www.facebook.com/globalaccessibilityawarenessday">Liking our Facebook page</a>.
+                </p>
               </span>
-              Show support for this effort by <a href="https://www.facebook.com/globalaccessibilityawarenessday">Liking our Facebook page</a>.</li>
-						<li>
-              <span class="icon is-medium">
-                <i class="fa fa-twitter"></i>
+            </div>
+ 
+
+						<div class="column">
+              <span class="box">
+                <span class="icon is-large">
+                  <i class="fa fa-twitter"></i>
+                </span>
+                <p>
+                  <a href="https://twitter.com/gbla11yday">Follow gbla11yday on Twitter</a> and tweet using the #gaad hashtag.
+                </p>
               </span>
-              <a href="https://twitter.com/gbla11yday">Follow gbla11yday on Twitter</a> and tweet using the #gaad hashtag.</li>
-					</ul>
-					<div class="callout">
-            <span class="icon is-medium">
-                <i class="fa fa-microphone"></i>
+            </div>
+
+            <div class="column">
+              <span class="box">
+                <span class="icon is-large">
+                    <i class="fa fa-microphone"></i>
+                  </span>
+                <p>
+                <a href="http://www.webaxe.org/">Webaxe</a> has generously <a href="http://www.webaxe.org/podcast-95-global-accessibility-awareness-day-surveys-more/">interviewed us</a> for this podcast!
+                </p>
               </span>
-            <a href="http://www.webaxe.org/">Webaxe</a> has generously <a href="http://www.webaxe.org/podcast-95-global-accessibility-awareness-day-surveys-more/">interviewed us</a> for this podcast!</div>
+            </div>
+
+					</div>
 
 					<h2>Information on GAAD is available in:</h2>
 					<ul>
@@ -71,10 +101,19 @@
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 .logo-area {
   text-align: center;
 }
+
+.with-icons {
+  text-align: center;
+}
+
+.my-centered-item {
+  text-align: center;
+}
+
   
 </style>
